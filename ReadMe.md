@@ -34,6 +34,8 @@
 
 ### Demo1(登录百度发帖)
 
+在该demo中，我使用PO模型。pagedemo1目录下baidupage.py写的是整个操作逻辑代码，在根目录下runbaidu.py则根据业务调用page页面的代码，并传入参数，实现数据与业务逻辑层分离。在runbaidu.py代码与unittest单元测试模块结合，并在reports目录下生成报告。
+
 登录百度我用是新浪微博登录，打开的是新窗口，注意窗口切换即可。需要注意，我留出来了更改帐号密码的入口。可以在data文件夹下的baidu.ini里进行配置。配置方法如下：
 
 ~~~python
